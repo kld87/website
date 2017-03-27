@@ -1,0 +1,4 @@
+# robots.txt for http://kevindawe.ca/
+# You're not a robot, so what are you doing here?
+User-agent: *
+
