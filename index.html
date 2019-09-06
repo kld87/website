@@ -1,53 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<html>
 <head>
-    <title>Kevin Dawe</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <style>
-        * {
-            font-family: georgia;
-        }
+	<title>Kevin Dawe</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		* {
+			font-family: georgia;
+		}
 
-        a{color: #33CCFF;}
-        a:link {text-decoration:none;}
-        a:visited {text-decoration:none;}
-        a:hover {text-decoration:none;}
-        a:active {text-decoration:none;}
+		a{color: #33CCFF;}
+		a:link {text-decoration:none;}
+		a:visited {text-decoration:none;}
+		a:hover {text-decoration:none;}
+		a:active {text-decoration:none;}
 
+		p {
+			font-size: 1.5em;
+			margin-bottom: 1em;
+			line-height: 1.2em;
+		}
 
-        p {
-            font-size: 1.5em;
-            padding-bottom: 1em;
-            line-height: 1.2em;
-        }
+		h3 {
+			margin-top: 0;
+		}
+		h3 a {
+			color: #57A !important;
+		}
 
-        #logo {
-            margin-top: 4em;
-            margin-bottom: 2em;
-        }
-    </style>
+		.features {
+			margin-bottom: 1em;
+		}
+		.features > div > div {
+			padding: 1em;
+		}
+		.features img {
+			border: 3px solid #57A;
+		}
+
+		#logo {
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
+	</style>
 </head>
 <body>
 
 
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <img alt="Logo" src="logo.png" id="logo"/>
-            <p>Howdy. I'm Kevin Dawe, a techie currently living in London, Ontario.</p>
-            <p>I'm reserving this space for any future projects I find worth sharing.</p>
-            <p>In the meantime, here's a link to <a href="jutter.html">JUTTER!</a> - a little HTML5 game I made ages ago, which happens to be my favourite hobby project from my old website.</p>
-            <p>Otherwise, here's my <a href="https://github.com/kld87">Github account</a> for some miscellaneous code. I'm also on <a href="https://twitter.com/KevinDaweCA">The Twitter</a>, or you can contact me via <a href="addr.png">email</a>.</p>
-            <p>Cheers.</p>
-        </div>
-        <div class="col-md-3"></div>
-    </div>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<img alt="Logo" src="logo.png" id="logo">
+			<p>Howdy. I'm Kevin Dawe, a techie currently living in London, Ontario. Right now I'm looking for interesting opportunities in the development and systems space. Check out some of my portfolio projects below:</p>
+
+			<div class="features">
+				<div class="clearfix">
+					<!-- leaflet -->
+					<div class="pull-left">
+						<a class="pull-left" href="lgas/">
+							<img alt="Logo" src="leaflet.png">
+						</a>
+					</div>
+					<div>
+						<h3><a href="lgas/">Leaflet Grid Analysis Sandbox</a></h3>
+						<p>This project uses Leaflet, some native and 3rd-party controls, plus some custom code I've written to create a fixed-length grid to perform performant point-to-point analysis, along with heatmap-inspired grid styling. Try zooming in/out, click some markers, then explore the control bar in the top right for more functionality and information.</p>
+					</div>
+				</div>
+				<div class="clearfix">
+					<!-- TODO -->
+					<!-- jutter -->
+					<div class="pull-left">
+						<a class="pull-left" href="jutter.html">
+							<img alt="Logo" src="jutter.png">
+						</a>
+					</div>
+					<div>
+						<h3>
+							<a href="jutter.html">
+								<span style="color: #E01B6A;">J</span>
+								<span style="color: #1BA5E0;">U</span>
+								<span style="color: #E0941B;">T</span>
+								<span style="color: #1BE07A;">T</span>
+								<span style="color: #E01BD0;">E</span>
+								<span style="color: #E03C1B;">R</span>
+								!
+							</a>
+						</h3>
+						<p>A little HTML5 game I made ages ago, which happens to be my favourite hobby project from my old website. Give it a try and see how high of a score you can get!</p>
+					</div>
+				</div>
+			</div>
+
+			<p>I also played a major role in the development of the products listed under "Asset Management" at the last place I worked, <a href="https://psdrcs.com/software/">PSD Research, Consulting, and Software</a>.</p>
+			<p>Please check out my <a href="https://github.com/kld87">GitHub account</a> for some miscellaneous code. I'm also on <a href="https://twitter.com/KevinDaweCA">The Twitter</a>, or you can contact me via <a href="addr.png">email</a> (including to request a resume or inquire re: professional opportunities).</p>
+			<p>Cheers.</p>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
 </div>
 
 </body>
